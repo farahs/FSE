@@ -1,2 +1,2 @@
-# PSI-FSE
+# FSE
 documentation
