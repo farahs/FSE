@@ -1268,6 +1268,7 @@ begin
                          WHEN INSTRUMENT.IDENT_ASSETCLASS = 1014 THEN 9
                          WHEN INSTRUMENT.IDENT_ASSETCLASS IN (1015,1032) THEN 19
                          WHEN INSTRUMENT.IDENT_ASSETCLASS = 1016 THEN 15
+                         WHEN INSTRUMENT.IDENT_ASSETCLASS = 1033 THEN 20
                          ELSE 0
                       END
                          AS TYP_SEC,
@@ -1491,6 +1492,7 @@ begin
                              WHEN INSTR.IDENT_ASSETCLASS = 1014 THEN 9
                              WHEN INSTR.IDENT_ASSETCLASS = 1015 THEN 19
                              WHEN INSTR.IDENT_ASSETCLASS = 1016 THEN 15
+                             WHEN INSTR.IDENT_ASSETCLASS = 1033 THEN 20
                              ELSE 0
                           END
                              AS TYP_SEC,
@@ -1603,6 +1605,7 @@ begin
                              WHEN INSTR.IDENT_ASSETCLASS = 1014 THEN 9
                              WHEN INSTR.IDENT_ASSETCLASS = 1015 THEN 19
                              WHEN INSTR.IDENT_ASSETCLASS = 1016 THEN 15
+                             WHEN INSTR.IDENT_ASSETCLASS = 1033 THEN 20
                              ELSE 0
                           END
                              AS TYP_SEC,
