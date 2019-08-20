@@ -85,6 +85,7 @@
                 WHEN INSTR.IDENT_ASSETCLASS = 1014 THEN 9
                 WHEN INSTR.IDENT_ASSETCLASS IN (1015,1032) THEN 19
                 WHEN INSTR.IDENT_ASSETCLASS = 1016 THEN 15
+                WHEN INSTR.IDENT_ASSETCLASS = 1033 THEN 20
                 ELSE 0
              END AS NUMBER (5))
           AS TYP_SEC,
